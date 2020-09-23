@@ -1,5 +1,8 @@
 /*
 must have eyecrawl (this was made before eyestep reb came out)
+
+to run:
+
 FixIdentitys(Sandbox thread adress);
 
 so far it survived 6 updates
@@ -8,7 +11,7 @@ it isnt hard to do itll prolly take you around 5 min at most
 this is from my dumper project i started 6 months ago
 */
 
-int Identity1 =  0;
+int Identity1 = 0;
 int Identity2 = 0;
 
 
@@ -67,7 +70,7 @@ RESULTS GetIdentitys(unsigned int sandboxthreadaddy) {
 	return Identity;
 }
 void FixIdentitys(DWORD SandboxThread) {
-	RESULTS ad = GetIdentitys(SandboxThread);
-	int Identity1 = ad[0] ;
+    RESULTS ad = GetIdentitys(SandboxThread);
+    int Identity1 = ad[0];
     int Identity2 =  ad[1];
 }
