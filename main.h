@@ -7,6 +7,7 @@ FixIdentitys(Sandbox thread adress);
 
 so far it survived 6 updates
 this is from my dumper project i started 6 months ago
+idk if it will work in an exploit dll but it works in an external dumper
 */
 
 int Identity1 = 0;
