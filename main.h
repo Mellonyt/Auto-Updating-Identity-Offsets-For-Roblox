@@ -6,8 +6,6 @@ to run:
 FixIdentitys(Sandbox thread adress);
 
 so far it survived 6 updates
-you can redo it to auto update identitys
-it isnt hard to do itll prolly take you around 5 min at most
 this is from my dumper project i started 6 months ago
 */
 
