@@ -57,7 +57,7 @@ RESULTS GetIdentitys(unsigned int sandboxthreadaddy) {
 		if (AllEBP[i] < 200 && AllEBP[i] >= 100) {
 			if (AllEBP[i] == AllEBP[i + 1]) { // this checks it here
 				int ident2 = AllEBP[i];
-				int ident1 = AllEBP[i + 2] + AllEBP[i + 3] + AllEBP[i + 4] + AllEBP[i + 5]; // iden1 calc
+				int ident1 = 24;//temp fix 
 				Identity.push_back(ident1); // adds first identity	
 				Identity.push_back(ident2);
 				return Identity;
